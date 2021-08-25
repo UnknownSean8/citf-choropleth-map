@@ -23,7 +23,7 @@ jobs:
   # uses: jannekem/run-python-script-action@088ec07b341540e5742f0426f5fdaf81950bac45
       - uses: jannekem/run-python-script-action@v1.2
         with:
-          script: python3 main.py
+          script: main.py
           
       - name: Fetch latest data & generate new graph
         run: python3 main.py
