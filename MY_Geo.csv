@@ -1,0 +1,27 @@
+city,lat,lng,country,iso2,admin_name,capital,population,population_proper
+Kuala Lumpur,3.1478,101.6953,Malaysia,MY,Kuala Lumpur,primary,8285000,1768000
+Klang,3.0333,101.4500,Malaysia,MY,Selangor,,878000,878000
+Ipoh,4.6000,101.0700,Malaysia,MY,Perak,admin,866772,866772
+Butterworth,5.3942,100.3664,Malaysia,MY,Pulau Pinang,,821652,107591
+Johor Bahru,1.4556,103.7611,Malaysia,MY,Johor,admin,797882,797882
+George Town,5.4145,100.3292,Malaysia,MY,Pulau Pinang,admin,708127,708127
+Petaling Jaya,3.1073,101.6067,Malaysia,MY,Selangor,,638516,638516
+Kuantan,3.8167,103.3333,Malaysia,MY,Pahang,admin,607778,607778
+Shah Alam,3.0833,101.5333,Malaysia,MY,Selangor,admin,584340,584340
+Kota Bharu,6.1333,102.2500,Malaysia,MY,Kelantan,admin,491237,491237
+Melaka,2.1889,102.2511,Malaysia,MY,Melaka,admin,455300,455300
+Kota Kinabalu,5.9750,116.0725,Malaysia,MY,Sabah,admin,452058,452058
+Seremban,2.7297,101.9381,Malaysia,MY,Negeri Sembilan,admin,419536,419536
+Sandakan,5.8388,118.1173,Malaysia,MY,Sabah,,396290,396290
+Sungai Petani,5.6500,100.4800,Malaysia,MY,Kedah,,358499,228843
+Kuching,1.5397,110.3542,Malaysia,MY,Sarawak,admin,325132,325132
+Kuala Terengganu,5.3303,103.1408,Malaysia,MY,Terengganu,admin,255109,255109
+Alor Setar,6.1167,100.3667,Malaysia,MY,Kedah,admin,217000,217000
+Putrajaya,2.9300,101.6900,Malaysia,MY,Putrajaya,admin,67964,67964
+Kangar,6.4414,100.1986,Malaysia,MY,Perlis,admin,48898,48898
+Labuan,5.2803,115.2475,Malaysia,MY,Labuan,admin,,
+Pasir Mas,6.0493,102.1399,Malaysia,MY,Kelantan,minor,,
+Tumpat,6.2000,102.1667,Malaysia,MY,Kelantan,minor,,
+Ketereh,5.9570,102.2482,Malaysia,MY,Kelantan,minor,,
+Kampung Lemal,6.0302,102.1413,Malaysia,MY,Kelantan,minor,,
+Pulai Chondong,5.8713,102.2318,Malaysia,MY,Kelantan,minor,,
