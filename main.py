@@ -3,6 +3,9 @@
 # https://earthworks.stanford.edu/catalog/stanford-qg469kj1734
 # https://simplemaps.com/data/my-cities
 
+# Reference
+# https://github.com/pokgak/citf-graphs
+
 import requests
 import branca.colormap as cm
 import geopandas as gpd
@@ -103,18 +106,13 @@ def plot(df, style_dict, cmap):
 
     _ = cmap.add_to(slider_map)
 
-    mc = MarkerCluster()
-    for idx, row in df.iterrows(): 
-        if not math.isnan(row['lng']) and not math.isnan(row['lat']):
-            mc.add_child(Marker(location=[row['lat'], row['lng']],
-                                tooltip=str(round(row['percent_vaccinated']*100, 2))+"%"))
-    slider_map.add_child(mc)
-
     folium.LayerControl().add_to(slider_map)
 
     cmap.caption = "Number of confirmed full vaccination x1000"
 
-    slider_map.save(outfile='TimeSliderChoropleth.html')
+    slider_map.get_root().html.add_child(folium.Element("Number of Full Vaccination by State over Time Choropleth Graph"))
+
+    slider_map.save(outfile='index.html')
 
 if __name__ == "__main__":
     state_vac_data = fetch_required_csv(STATE_DATA_URL)
