@@ -4,4 +4,3 @@ geopandas
 numpy
 pandas
 folium
-math
