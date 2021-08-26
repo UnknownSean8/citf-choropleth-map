@@ -3,6 +3,5 @@ branca
 geopandas
 numpy
 pandas
-time
 folium
 math
