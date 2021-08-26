@@ -49,5 +49,5 @@ jobs:
 
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: "bot: update graph for ${{ steps.get-date.outputs.value }}"update graph for ${{ steps.get-date.outputs.value }}"
+          commit_message: "bot: update graph for ${{ steps.get-date.outputs.value }}"
 
