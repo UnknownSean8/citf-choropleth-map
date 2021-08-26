@@ -1,5 +1,5 @@
 requests
-branca.colormap
+branca
 geopandas
 numpy
 pandas
