@@ -14,6 +14,7 @@ import pandas as pd
 import time
 import folium
 import math
+from datetime import date, timedelta
 
 from folium import Marker
 from folium.plugins import TimeSliderChoropleth, MarkerCluster
@@ -108,9 +109,13 @@ def plot(df, style_dict, cmap):
 
     folium.LayerControl().add_to(slider_map)
 
-    cmap.caption = "Number of confirmed full vaccination x1000"
+    cmap.caption = "Number of confirmed full vaccination (k)"
 
-    slider_map.get_root().html.add_child(folium.Element("Number of Full Vaccination by State over Time Choropleth Graph"))
+    freshDate = date.today()
+    freshDate = date.strftime(freshDate,"%d%b%Y")
+    freshDate = freshDate[0:2] + "-" + freshDate[2:5] + "-" + freshDate[5:9]
+
+    slider_map.get_root().html.add_child(folium.Element("Number of Full Vaccination by State over Time Choropleth Graph. Last Updated: " + str(freshDate)))
 
     slider_map.save(outfile='index.html')
 
